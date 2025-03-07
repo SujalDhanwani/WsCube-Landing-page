@@ -1,0 +1,303 @@
+* {
+    font-family: "Inter", serif;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .btn-outter {
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        padding: 5px 0px;
+        width: 100%;
+        left: 0;
+        justify-content: center!important;
+    }
+    .watsappbtn,.call{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .bannercontent{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+    }
+    .bannercontent br{
+        display: none;
+    }
+    .bannercontent p,.bannercontent ul li i{
+        font-size: 16px ;
+    }
+    .bannerbtn{
+        flex-direction: column;
+    }
+    .bannerbtn button{
+        width: 100%;
+    }
+    .bannerform{
+        padding: 20px;
+    }
+    .highlights-section h2{
+        font-size: 28px;
+    }
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+.watsappbtn {
+    border: 1px solid #27ae60; 
+    padding: 10px 18px;
+    font-size: 16px;
+    color: white;
+    /* background-color: #27ae60; */
+    border-radius: 5px;
+}
+
+.watsappbtn i {
+    color: white;
+}
+
+.watsappbtn:hover {
+    background-color: #1e874b;
+    cursor: pointer;
+}
+
+.call {
+    padding: 10px 18px;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.call:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.bannercontent h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.bannercontent h1 span{
+    color:#2699FB;
+    background-image: url("images/border.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.bannercontent p{
+    font-size: 22px;
+}
+.bannercontent ul{
+    list-style: none;
+}
+.bannercontent ul li{
+    font-size: 22px;
+}
+.bannercontent ul li i{
+    color: #2699FB;
+}
+.bannerbtn button{
+    padding: 10px 0px;
+    width: 50%;
+    border-radius: 5px;
+}
+.demobtn{
+    color: white;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+}
+.bannerform h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.bannerform button{
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    border: none;
+    color: white;
+
+}
+.countersection h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+.highlights-section{
+    background-color: #F7FAFF;
+}
+.highlights-section h2{
+    color: #0a2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+.highlights-section p{
+    font-size: 18px;
+
+}
+.highlightsitem h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+highlightsitem p{
+    font-size: 15px;
+}
+.highlightsitem6 h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.highlightsitem6 p{
+    font-size: 15px;
+}
+.bookbtn{
+    width: 50%;
+    padding: 10px 10px;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    margin: 0 auto;
+}
+.digital-marketing h2{
+    font-size: 44px;
+    font-weight: 700;
+}
+.digital-marketing p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card img {
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0b1f3a;
+}
+
+.digitalmarketing {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.digitalmarketing h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.digitalmarketing p {
+    color: #555;
+    margin-bottom: 20px;
+}
+.nav-tabs .nav-link {
+    color: #333;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+.curriculum-section p {
+    font-size: 1rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.check-icon i {
+    font-size: 1rem;
+}
+.download-btn {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+.aboutDM h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+.aboutDM p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.cta-section {
+    max-width: 1170px;
+    margin: 50px auto;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background: url('https://www.transparenttextures.com/patterns/arches.png');
+    opacity: 0.1;
+}
+
+.cta-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.cta-btn {
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #0072ff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .cta-section {
+        margin: 20px;
+        padding: 30px 15px;
+    }
+
+    .cta-section h2 {
+        font-size: 24px;
+    }
+
+    .cta-section p {
+        font-size: 14px;
+    }
+}
+.companies h2{
+    font-size: 44px;
+    font-weight: 700;
+}
